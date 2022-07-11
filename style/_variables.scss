@@ -1,0 +1,21 @@
+
+$color-white:#fff;
+$bg-button:#00AA59;
+$color-grey:#D3D4D8;
+$color-light:#A1A4B1;
+$color-black:#22242D;
+$color-orange1:#FAA61A;
+$color-orange2:#F58634;
+$font-Boroto:'Roboto', sans-serif;
+$font-Kanit:'Kanit', sans-serif;
+$bg-dark:#22242D;
+$bg-contact:#FEF3EB;
+
+@mixin title ($weight, $size, $family, $bottom, $color) {
+    font-weight: $weight;
+    font-size: $size;
+    font-family: $family;
+    margin-bottom: $bottom;
+    color:$color;
+
+}
